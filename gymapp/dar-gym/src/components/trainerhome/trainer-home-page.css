@@ -1,0 +1,95 @@
+.full-section {
+    position: relative;
+    display: block;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff; /* Set text color to white or a color that stands out on the background */
+    overflow: hidden; /* Hide any overflow caused by image tilting */
+  }
+  
+  .image-container {
+    position: relative;
+    transform: perspective(1000px) rotateZ(-5deg); /* Tilt the images */
+  }
+  
+  .tilted-blur-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px); /* Apply a slight blur effect */
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  @media (max-width: 576px) {
+    .image-container{
+        transform: perspective(1000px) rotateZ(0deg); /* Tilt the images */
+    }
+  }
+
+
+
+
+
+
+  .trainer-profile-form-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .form img {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  

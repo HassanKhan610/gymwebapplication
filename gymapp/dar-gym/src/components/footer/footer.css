@@ -1,0 +1,64 @@
+/* GymFooter.css */
+.gym-footer {
+    background-color: #001529;
+    color: white;
+    padding: 30px 0;
+  padding: 0 20px; /* Adjust the left and right padding as needed */
+  }
+  
+  .gym-footer h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .gym-footer p {
+    color: #b3b3b3;
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #00a0d2;
+  }
+  
+  /* Style for footer links */
+  .gym-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .gym-footer a:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+  }
+  
+  /* Style for footer menu items */
+  .footer-menu {
+    background-color: transparent; /* Remove the white background */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+  }
+  
+  .footer-menu-item{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-menu li:hover{
+    color: #00a0d2 !important;
+    text-decoration: underline !important;
+  }

@@ -1,0 +1,33 @@
+
+  /* TitleComponent.css */
+/* .custom-title {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .title-image-container {
+    position: relative; /* Make the container a positioning context */
+  }
+  
+  .title-icon {
+    width: 100%; /* Adjust the image size as needed */
+    height: auto; /* Adjust the image size as needed */
+    opacity: 0.8;
+  }
+  
+  .title-text {
+    position: absolute;
+    top: 50%; /* Position the text in the vertical center */
+    left: 50%; /* Position the text in the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text within its container */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for text */
+    padding: 8px; /* Add some padding around the text */
+    border-radius: 4px; /* Add border radius for a rounded look */
+    font-weight: bold; /* Optional: Make the text bold */
+  }
+
+
+/* LocationsSection.css */
+
+/* LocationsSection.css */
+
